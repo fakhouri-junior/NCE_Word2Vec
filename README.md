@@ -1,4 +1,4 @@
-# Negative_Sampling
+# Word2Vec Negative_Sampling
 
 Note: This implemented on Windows OS, please find all path strings and change \\ with / if running on linux or Mac
 
@@ -13,7 +13,7 @@ Dependecies:
 
 This is an efficient implementation of Word2vec on game of thrones textbooks
 
-# Train From Scratch
+## Train From Scratch
 if you would like to run the model your self and configure the hyper-parameters specified in main.py please do delete the following folders first to avoid conflicts when running tensorflow:
 1- visualizations
 2- graph
@@ -24,7 +24,7 @@ To train from scratch run and of course feel free to provide your own hyper-para
 python main.py --data-dir data\\ --vocab-dir vocab\\
 ```
 
-# Just-Visualization
+## Just-Visualization
 you can use my trained model and run tensorboard to visualize the word vectors generated to do so:
 
 ```
@@ -37,8 +37,8 @@ tensorboard --logdir=visualizations`
 
 ```
 
-# Evaluation
+## Evaluation
 you may as well run evaluate.py to find analogies and nearest words regarding game of thrones
-my favourite one is 
+my favourite one is \n
 **Mother is to Joffrey as "ghost/Sam" is to Jon**
 
