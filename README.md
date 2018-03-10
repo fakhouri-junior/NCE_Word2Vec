@@ -1,4 +1,4 @@
-Negative_Sampling
+#Negative_Sampling
 
 Note: This implemented on Windows OS, please find all path strings and change \\ with / if running on linux or Mac
 
@@ -24,16 +24,18 @@ To train from scratch run and of course feel free to provide your own hyper-para
 python main.py --data-dir data\\ --vocab-dir vocab\\
 ```
 
-#Just Visualization
+#Just-Visualization
 you can use my trained model and run tensorboard to visualize the word vectors generated to do so:
+
+```
 1- open terminal (cmd on windows) 
 2- Navigate to visualizations folder
 3- run
-``
 tensorboard --logdir=visualizations`
-```
 4- copy and paste the url provided by tensorboard
 5- load the vocab_3000.tsv in tensorboard to identify each word
+
+```
 
 #Evaluation
 you may as well run evaluate.py to find analogies and nearest words regarding game of thrones
