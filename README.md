@@ -3,21 +3,21 @@
 Note: This implemented on Windows OS, please find all path strings and change \\ with / if running on linux or Mac
 
 ### Dependecies:
-1- Tensorflow
-2- Python 3
-3- Numpy
-4- os
-5- argpase
-6- glob
+1. Tensorflow
+2. Python 3
+3. Numpy
+4. os
+5. argpase
+6. glob
 
 
 This is an efficient implementation of Word2vec on game of thrones textbooks
 
 ### Train From Scratch
 if you would like to run the model your self and configure the hyper-parameters specified in main.py please do delete the following folders first to avoid conflicts when running tensorflow:
-1- visualizations
-2- graph
-3- checkpoints
+1. visualizations
+2. graph
+3. checkpoints
 
 To train from scratch run and of course feel free to provide your own hyper-parameters, you can find them in main.py:
 ```
