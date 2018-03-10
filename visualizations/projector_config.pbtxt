@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "embedded_matrix_visualize:0"
+  metadata_path: "visualizations\\vocab_5000.tsv"
+}

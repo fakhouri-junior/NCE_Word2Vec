@@ -1,0 +1,6 @@
+model_checkpoint_path: "word2vec-499999"
+all_model_checkpoint_paths: "word2vec-479999"
+all_model_checkpoint_paths: "word2vec-484999"
+all_model_checkpoint_paths: "word2vec-489999"
+all_model_checkpoint_paths: "word2vec-494999"
+all_model_checkpoint_paths: "word2vec-499999"
