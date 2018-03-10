@@ -30,7 +30,7 @@ you can use my trained model and run tensorboard to visualize the word vectors g
 ```
 1- open terminal (cmd on windows) 
 2- Navigate to visualizations folder
-3- run <br />
+3- run 
 tensorboard --logdir=visualizations`
 4- copy and paste the url provided by tensorboard
 5- load the vocab_3000.tsv in tensorboard to identify each word
